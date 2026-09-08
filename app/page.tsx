@@ -28,6 +28,14 @@ export default function Home() {
         <div><span className="line-icon">↳</span><h3>Human defaults</h3><p>Technology should adapt to people—not require people to become system administrators.</p></div>
         <div><span className="line-icon">◎</span><h3>Built to last</h3><p>Clear decisions, durable foundations, and a healthy suspicion of novelty for novelty’s sake.</p></div>
       </section>
+      <section className="origin-section shell">
+        <p className="origin-label">Behind the name</p>
+        <div className="origin-copy">
+          <h2>What’s a day boil?</h2>
+          <p>Our name comes from Newfoundland, where a day boil is an afternoon set aside to enjoy good weather, good company, and perhaps a drink outdoors before evening arrives.</p>
+          <p>The phrase stayed with our founder after a visit—not only for the idea, but for the warmth and generosity of the people he met. It is a small reminder that time is worth using well, and that the best things are often made to be shared.</p>
+        </div>
+      </section>
       <footer className="footer shell"><div><strong>Day Boil Studios</strong><p>Independent software, thoughtfully made.</p></div><div><Link href="/about">About the founder</Link><span>© 2026</span></div></footer>
     </main>
   );
